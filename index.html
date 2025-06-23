@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOHIT</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Temperature Converter</h1>
-        <p>Enter Temperature:</p>
-        <input type="text">
+        <label for="">Enter Temperature: </label>
+        <input type="number">
         <select name="choose" id="">
+            <option value="cTOf">Select Conversion</option>
             <option value="cTOf">Celcius To Fahrenheit</option>
             <option value="fTOc">Fahrenheit To Celcius</option>
         </select>
+        <button id="convert">Convert</button>
+
+        <h3 id="result"></h3>
+
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
